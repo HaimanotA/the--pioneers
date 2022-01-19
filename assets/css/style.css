@@ -9,54 +9,64 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    color: #3a3a3a
+    background-color: whitesmoke;
 }
 
-/* styling logo and headings */
-
 h1, h2 {
-    font-family: cursive , 'Dancing Script' ;
+    font-family: cursive, 'Dancing Script';
     text-transform: capitalize;
     letter-spacing: 3px;
     color: #252525;
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-}
 
-#motto {
-    float: left;
-    font-size: 180%;
-}
+#logo{
+    font-size: 6rem;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    }
 
 
-#nav-bar {
-        letter-spacing: 3px;
-         font-size:110;
+ #motto{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-left:20px;
         }
-#nav-bar, #logo{
-    line-height:75px;
-    }
-
-#nav-bar li {
-    float: right;
-    margin-right: 30px;
-    list-style-type:none;
-}
 
 
-#nav-bar a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color:inherit;
-}
+        header{
+            background-color: seagreen;
+            padding: 20px;
+        }
 
-#menu a:hover{
-   border-bottom: 1px solid #3a3a3a;
-    }
-    
- .current{
-        border-bottom: 1px solid #3a3a3a;
-         }
+        nav{
+            padding: 0;
+            font-size: 1.3em;
+            height:45px;
+            line-height:45px;
+            }
+
+
+            nav a{
+                text-decoration:none;
+                margin:2.5%;
+                }
+
+            .nav-bar a{
+                    text-decoration:none;
+                    color:inherit;
+                }
+
+
+                    .nav-bar{text-align:center;
+                        text-transform: uppercase;
+                        padding: 1rem;
+                        letter-spacing: 2px;
+                        font-size:110;
+                    }
+
+                   
+                        .page-header{
+                            height: 30vh;
+                            }   
+
