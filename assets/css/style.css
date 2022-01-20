@@ -68,12 +68,11 @@ nav a{
     }
     
 div{
-    vertical-align:top;
+    vertical-align:top; 
     display:inline-block;
     padding:70px;
     width:40%;
-    text-align:justify;
-            }
+    text-align:justify;}
 
 
     #hero-image1{
