@@ -28,9 +28,23 @@ header{
 li{
     list-style-type: none;
 }
+
+/** styling the header **/
+
 .page-header{
 height: 30vh;
 }
+
+#logo{
+    font-size: 100px;
+    margin-top:-50px;
+    }
+
+
+.motto{
+    font-size: 80px;
+    }
+
 
 
 .text-left{text-align: left;}
@@ -42,15 +56,6 @@ height: 30vh;
 }
 
 
-#logo{
-    font-size: 100px;
-    margin-top:-50px;
-    }
-
-
-.motto{
-    font-size: 80px;
-    }
 
 
 nav{
@@ -67,30 +72,31 @@ nav a{
     margin:2.5%;
     }
     
+    /** creating blocks **/
 div{
     vertical-align:top; 
     display:inline-block;
     padding:70px;
     width:40%;
-    text-align:justify;}
-
+    text-align:justify;} 
+      
 
     #hero-image1{
         width:70%;
-        height:20%;
+        height:600px;
+       /** height:20%; 
         margin-right: auto;
         margin-left: auto;
-        display: block;
-        image:url('../images/hero-image1.jpg')no-repeat;
+       display: block; **/
+        background:url('../images/hero-image1.jpg')no-repeat center center;
+        margin-top: -70px;
         }
 
         #hero-image2{
+        height:600px;
             width:70%;
-            height:20%;
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
-            image:url('../images/hero-image2.jpg')no-repeat;
+        background:url('../images/hero-image2.jpg')no-repeat center center;
+        margin-top: -70px;
             }
 
 h2{
@@ -128,3 +134,9 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
+/** media queries **/
+
+/** for larger to medium screen sizes, 1200px wide and below **/
+
+/** 
+@media screen and (max-width: 1200px) {{ **/
