@@ -107,6 +107,13 @@ h2{
 background-color: seagreen;
 }
 
+
+footer>a {
+    width:100%;
+    clear:both;
+    padding:0;
+    height:150px;
+    }
 hr {
     height: 2px;
     display: block;
@@ -136,24 +143,51 @@ text-transform: uppercase;
 
 /** media queries **/
 
-/** for larger to medium screen sizes, 1200px wide and below 
+/** for larger to medium screen sizes, 1440px wide and below **/
 
 
-@media screen and (max-width: 1200px) {
-    #celebs { width:65%;
-    height: 1200px;
-margin: 0 auto;
+@media screen and (max-width: 1440px) {
+    #celebs { 
+    width: 65%;
+    height: 1440px;
+    margin: 0 auto;
+}
 
 
-#welcome{padding: 30px 0;
-    margin:0;}
-
-
-    #left-block, #right-block{
+  #left-block, #right-block{
         width:100%;
         float:left;
         padding:0;
     }
      
-    hr{display:none;} 
-}} **/
+    hr{display:none;
+
+}
+} 
+
+/** for medium screen sizes, 1440px wide and below **/
+ #nav-bar{clear:left;
+    float:left;
+    margin-left:30px;
+    margin-bottom:20px;
+    line-height:25px;
+} 
+
+hero-image1,hero-image2 {left:0;
+}
+
+#celebs{width:90%;
+    height:1440px;
+    margin: 0 auto;
+}
+
+#left-block, #right-block{width:inherit;
+}
+#left-block h2, #right-block h2 {width:100%;
+    text-align:center;
+}
+
+#left-block p, #right-block{
+    text-align:center;
+    padding: 0 20px;
+}
