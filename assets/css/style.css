@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@200&display=swap');
+
 /** styling the body **/
 * {
     margin: 0;
@@ -13,44 +14,48 @@ body {
     font-size: 24px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: cursive, 'Dancing Script';
     text-transform: capitalize;
     letter-spacing: 3px;
     color: #252525;
 }
 
-header{
+header {
     background-color: seagreen;
-   /** padding: 20px; will take out the logo **/
+    /** padding: 20px; will take out the logo **/
 }
 
-li{
+li {
     list-style-type: none;
 }
 
 /** styling the header **/
 
-.page-header{
-height: 30vh;
+.page-header {
+    height: 30vh;
 }
 
-#logo{
+#logo {
     font-size: 100px;
-    margin-top:-50px;
-    }
+    margin-top: -50px;
+}
 
 
-.motto{
+.motto {
     font-size: 80px;
-    }
+}
 
 
 
-.text-left{text-align: left;}
+.text-left {
+    text-align: left;
+}
 
 
-.nav-bar{text-align:center;
+.nav-bar {
+    text-align: center;
     text-transform: uppercase;
     padding: 1rem;
 }
@@ -58,136 +63,199 @@ height: 30vh;
 
 
 
-nav{
+nav {
     padding: 0;
     font-size: 1.0em;
-    height:45px;
-    line-height:45px;
-    }
+    height: 45px;
+    line-height: 45px;
+}
 
-    
-   
-nav a{
-    text-decoration:none;
-    margin:2.5%;
-    }
-    
-    /** creating blocks **/
-div{
-    vertical-align:top; 
-    display:inline-block;
-    padding:70px;
-    width:40%;
-    text-align:justify;} 
-      
 
-    #hero-image1{
-        width:70%;
-        height:600px;
-       /** height:20%; 
+
+nav a {
+    text-decoration: none;
+    margin: 2.5%;
+}
+
+/** creating blocks **/
+div {
+    vertical-align: top;
+    display: inline-block;
+    padding: 70px;
+    width: 40%;
+    text-align: justify;
+}
+
+
+#hero-image1 {
+    width: 70%;
+    height: 600px;
+    /** height:20%; 
         margin-right: auto;
         margin-left: auto;
        display: block; **/
-        background:url('../images/hero-image1.jpg')no-repeat center center;
-        margin-top: -70px;
-        }
+    background: url('../images/hero-image1.jpg')no-repeat center center;
+    margin-top: -70px;
+}
 
-        #hero-image2{
-        height:600px;
-            width:70%;
-        background:url('../images/hero-image2.jpg')no-repeat center center;
-        margin-top: -70px;
-            }
+#hero-image2 {
+    background: url('../images/hero-image2.jpg')no-repeat center center;
+    margin-top: -70px;
+    width: 70%;
+    height: 600px;
+}
 
-h2{
+h2 {
     text-align: center;
-    }
+}
 
-    #left-block{
-background-color: seagreen;
+#left-block {
+    background-color: seagreen;
 }
 
 
 footer>a {
-    width:100%;
-    clear:both;
-    padding:0;
-    height:150px;
-    }
+    width: 100%;
+    clear: both;
+    padding: 0;
+    height: 150px;
+}
+
 hr {
     height: 2px;
     display: block;
     background-color: whitesmoke;
-    }
+}
 
-#right-block{
-    background-color:burlywood;
-    }
-    
+#right-block {
+    background-color: burlywood;
+}
 
-    /** footer styling **/
-footer{
+
+/** footer styling **/
+footer {
     background-color: burlywood;
     padding: 2em;
-    text-align:center;
-    margin:0;
+    text-align: center;
+    margin: 0;
 }
 
 
-footer a{
-margin:2.5%;
-font-size: 1.0em;
-text-decoration: none;
-text-transform: uppercase;
+footer a {
+    margin: 2.5%;
+    font-size: 1.0em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+/* form styling*/
+.form {
+    margin: 0 auto;
+    margin-top:20px;
+    width: 50%;
+    border: 2px solid black;
+    padding: 20px 30px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.signup-form {
+    border: 2px solid black;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+#fname, #lname, #email {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 4px 10px;
+}
+
+#submit {
+    text-align: center;
+    border: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px;
+    padding-left: 30px 30px;
+}
+
 
 /** media queries **/
 
-/** for larger to medium screen sizes, 1440px wide and below **/
-
+/** for larger to medium screen sizes, 1440px wide and below
 
 @media screen and (max-width: 1440px) {
-    #celebs { 
-    width: 65%;
-    height: 1440px;
-    margin: 0 auto;
-}
-
-
-  #left-block, #right-block{
-        width:100%;
-        float:left;
-        padding:0;
+    #celebs {
+        height: 1270px;
+        margin: 0 auto;
+        width: 50%;
     }
-     
-    hr{display:none;
 
+    footer a {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    #left-block,
+    #right-block {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+
+    }
 }
-} 
 
 /** for medium screen sizes, 1440px wide and below **/
- #nav-bar{clear:left;
-    float:left;
-    margin-left:30px;
-    margin-bottom:20px;
-    line-height:25px;
-} 
 
-hero-image1,hero-image2 {left:0;
-}
 
-#celebs{width:90%;
-    height:1440px;
-    margin: 0 auto;
-}
+/**@media screen and (max-width: 1000px) {
+    #nav-bar {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
-#left-block, #right-block{width:inherit;
-}
-#left-block h2, #right-block h2 {width:100%;
-    text-align:center;
-}
+    #left-block,
+    #right-block {
+        display: block;
+        margin: 0 auto;
+        /* left: 0; */
+        /*float:none;
+    }
 
-#left-block p, #right-block{
-    text-align:center;
-    padding: 0 20px;
+    #logo {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+
+    #celebs {
+        width: 90%;
+        height: 1440px;
+        margin: 0 auto;
+    }
+
+    #left-block,
+    #right-block {
+        width: inherit;
+    }
+
+    #left-block h2,
+    #right-block h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-block p,
+    #right-block {
+        text-align: center;
+        padding: 0 20px;
+    }
 }
+**/
