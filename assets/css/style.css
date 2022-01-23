@@ -7,21 +7,23 @@
     border: none;
 }
 
-body {
+body 
+{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
     background-color: whitesmoke;
     font-size: 24px;
 }
 
-h1,
-h2 {
+h1, h2 
+{
     font-family: cursive, 'Dancing Script';
     text-transform: capitalize;
     letter-spacing: 3px;
     color: #252525;
 }
 
+/** styling the header **/
 header {
     background-color: seagreen;
     /** padding: 20px; will take out the logo **/
@@ -30,8 +32,6 @@ header {
 li {
     list-style-type: none;
 }
-
-/** styling the header **/
 
 .page-header {
     height: 30vh;
@@ -42,11 +42,9 @@ li {
     margin-top: -50px;
 }
 
-
 .motto {
     font-size: 80px;
 }
-
 
 
 .text-left {
@@ -54,14 +52,13 @@ li {
 }
 
 
+/**styling the navigation bar **/
+
 .nav-bar {
     text-align: center;
     text-transform: uppercase;
     padding: 1rem;
 }
-
-
-
 
 nav {
     padding: 0;
@@ -70,39 +67,41 @@ nav {
     line-height: 45px;
 }
 
-
-
 nav a {
     text-decoration: none;
     margin: 2.5%;
 }
 
-/** creating blocks **/
+/** creating the right and left blocks **/
 div {
     vertical-align: top;
     display: inline-block;
     padding: 70px;
     width: 40%;
     text-align: justify;
+    height: 1200px;
 }
 
 
 #hero-image1 {
-    width: 70%;
-    height: 600px;
-    /** height:20%; 
-        margin-right: auto;
-        margin-left: auto;
-       display: block; **/
+   
     background: url('../images/hero-image1.jpg')no-repeat center center;
-    margin-top: -70px;
+    margin-top: 20px;
+    width: 30%;
+    height: 350px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #hero-image2 {
     background: url('../images/hero-image2.jpg')no-repeat center center;
-    margin-top: -70px;
-    width: 70%;
-    height: 600px;
+    margin-top: 20px;
+    width: 30%;
+    height: 350px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 h2 {
@@ -114,12 +113,7 @@ h2 {
 }
 
 
-footer>a {
-    width: 100%;
-    clear: both;
-    padding: 0;
-    height: 150px;
-}
+
 
 hr {
     height: 2px;
@@ -148,6 +142,12 @@ footer a {
     text-transform: uppercase;
 }
 
+footer>a {
+    width: 100%;
+    clear: both;
+    padding: 0;
+    height: 150px;
+}
 /* form styling*/
 .form {
     margin: 0 auto;
@@ -181,19 +181,24 @@ footer a {
 }
 
 
-/** media queries **/
+/** Media queries **/
 
-/** for larger to medium screen sizes, 1440px wide and below
+/** for larger to medium screen sizes, 1440px wide and below **/
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1300px) {
     #celebs {
         height: 1270px;
         margin: 0 auto;
         width: 50%;
     }
+    header{
+        margin: 0 auto;
+        width: 50%;
+    }
 
-    footer a {
-        margin: 0;
+
+    footer {
+        margin: 0 auto;
         padding: 30px 0;
     }
 
@@ -213,7 +218,7 @@ footer a {
 /** for medium screen sizes, 1440px wide and below **/
 
 
-/**@media screen and (max-width: 1000px) {
+/@media screen and (max-width: 1000px) {
     #nav-bar {
         clear: left;
         float: left;
@@ -226,11 +231,10 @@ footer a {
     #right-block {
         display: block;
         margin: 0 auto;
-        /* left: 0; */
-        /*float:none;
+        float:none;
     }
 
-    #logo {
+    logo {
         font-size: 40px;
         margin: 0 auto;
     }
@@ -258,4 +262,3 @@ footer a {
         padding: 0 20px;
     }
 }
-**/
