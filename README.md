@@ -36,6 +36,7 @@ The footer section ,placed at the bottom of the page has links to the three soci
 This section is where new visitors should go when they have a question and wants to contact a specific individual in the organization. They are means for our customers to get in touch with us.
 
 - __The Signup Page__ 
+
 The signup page  will enable the user to get signed up by entering his/her full name and email address. 
 
 ### Features Left to Implement

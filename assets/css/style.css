@@ -7,16 +7,15 @@
     border: none;
 }
 
-body 
-{
+body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
     background-color: whitesmoke;
     font-size: 24px;
 }
 
-h1, h2 
-{
+h1,
+h2 {
     font-family: cursive, 'Dancing Script';
     text-transform: capitalize;
     letter-spacing: 3px;
@@ -84,14 +83,14 @@ div {
 
 
 #hero-image1 {
-   
+
     background: url('../images/hero-image1.jpg')no-repeat center center;
     margin-top: 20px;
     width: 30%;
     height: 350px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero-image2 {
@@ -99,9 +98,9 @@ div {
     margin-top: 20px;
     width: 30%;
     height: 350px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -111,9 +110,6 @@ h2 {
 #left-block {
     background-color: seagreen;
 }
-
-
-
 
 hr {
     height: 2px;
@@ -134,7 +130,6 @@ footer {
     margin: 0;
 }
 
-
 footer a {
     margin: 2.5%;
     font-size: 1.0em;
@@ -148,10 +143,11 @@ footer>a {
     padding: 0;
     height: 150px;
 }
+
 /* form styling*/
 .form {
     margin: 0 auto;
-    margin-top:20px;
+    margin-top: 20px;
     width: 50%;
     border: 2px solid black;
     padding: 20px 30px;
@@ -165,7 +161,9 @@ footer>a {
     box-sizing: border-box;
 }
 
-#fname, #lname, #email {
+#fname,
+#lname,
+#email {
     border: 2px solid black;
     box-sizing: border-box;
     padding: 4px 10px;
@@ -183,82 +181,94 @@ footer>a {
 
 /** Media queries **/
 
-/** for larger to medium screen sizes, 1440px wide and below **/
+/** for larger to medium screen sizes, 1400px wide and below **/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
     #celebs {
-        height: 1270px;
+        height: 1400px;
         margin: 0 auto;
-        width: 50%;
-    }
-    header{
-        margin: 0 auto;
-        width: 50%;
+        width: 65%;
     }
 
-
-    footer {
+    #header {
         margin: 0 auto;
-        padding: 30px 0;
+        width: 100%;
     }
 
-    #left-block,
-    #right-block {
+
+    #left-block,#right-block {
         width: 100%;
         float: left;
-        padding: 0;
+    }
+     
+   
+    .page-header {
+        height: 15vh;
+        margin:0;
     }
 
-    hr {
-        display: none;
-
+    nav a {
+        font-size: 20px;
+        height: 5px;
+        line-height: 20px;
     }
-}
+
+
+    #logo {
+        font-size: 40px;
+    }
+
+     footer {
+        font-size: 20px;
+        margin:0 auto;
+    }
+} 
 
 /** for medium screen sizes, 1440px wide and below **/
 
 
-/@media screen and (max-width: 1000px) {
-    #nav-bar {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+@media screen and (max-width: 1000px) {
+
+    #celebs {
+        width: 100%;
+        height: 2800px;
+        margin: 0 auto;
     }
+    #header {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    nav a {
+        font-size: 12px;
+        height: 5px;
+        line-height: 5px; }
 
     #left-block,
     #right-block {
         display: block;
         margin: 0 auto;
-        float:none;
-    }
+        width:100%;
+        float: none;
+    } 
 
-    logo {
-        font-size: 40px;
+    #logo {
+        font-size: 20px;
         margin: 0 auto;
+        margin-bottom:0;
     }
 
-    #celebs {
-        width: 90%;
-        height: 1440px;
-        margin: 0 auto;
-    }
-
-    #left-block,
-    #right-block {
-        width: inherit;
-    }
-
-    #left-block h2,
-    #right-block h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    #left-block p,
-    #right-block {
-        text-align: center;
-        padding: 0 20px;
-    }
+    #motto {
+    font-size: 15px;
+    margin: 0 auto;
 }
+
+    footer {
+        font-size: 12px;
+        margin:0 auto;
+        width:100%;
+        text-align: center;
+    }
+    
+    }
