@@ -224,7 +224,7 @@ footer>a {
     }
 } 
 
-/** for medium screen sizes, 1440px wide and below **/
+/** for medium screen sizes, 1000px wide and below **/
 
 
 @media screen and (max-width: 1000px) {
