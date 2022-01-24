@@ -2,6 +2,9 @@
 
 The pioneers is a website which aims to provide the biography of world changing inventors. The site will mainly targets the youth. The targets can get motivation, inspiration and encouragement from the real life stories and discoveries of successful people. 
 
+## Technologies used
+
+This website is developed using HTML and CSS.
 
 ## Features
 The pioneers contains three pages,namely, 'HOME', 'PIONEERS' and 'SUBSCRIBE'. In additon, it provides a link to social medias. 
@@ -39,24 +42,45 @@ This section is where new visitors should go when they have a question and wants
 
 The signup page  will enable the user to get signed up by entering his/her full name and email address. 
 
-### Features Left to Implement
+## Features left to implement
 
-- Another feature idea
+- Currently the site contains the biographpy of two persons. In the future it aims to include a search engine that takes input from the user.
 
-## Testing 
+
+## Testing
+
+Enough test on every features has been done to check if the site works well. 
+
+The homepage link in the navigation menu, takes the user to the home page if the user is on subscribe page. 
+
+The subscribe page takes name, email and password and as they are requiered fields the user cannot submit without filling out the required information.
+
+- At the bottom of the page there are links to social medias and as it is intended all open in a new tab when clicked. 
+
 ### Validator Testing 
 
 - HTML
+    - No errors or warning were shown when running the code on W3C validator. 
+
 - CSS
+    - No errors were found when running the code on W3C validator (jigsaw). 
+
 ### Unfixed Bugs
+
 
 ## Deployment
 
-- The link can be found 
+This site was deployed using github.
+
+The link for the website is : https://haimanota.github.io/the--pioneers/
 
 ## Credits
 
+**Content**
 
-### Content 
+- The texts for the biography part was taken from wikipedia. 
+- The quick facts for Mark Zuckerbery was taken from the site (https://www.entrepreneur.com/article/287422).
 
-### Media
+
+**Media**
+Both of the images were taken from wikipedia.

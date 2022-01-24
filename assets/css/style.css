@@ -194,9 +194,9 @@ footer>a {
     }
 
 
-    #left-block,#right-block {
+    #left-block, #right-block {
         width: 100%;
-        float: left;
+      /**  float: left; **/
     }
      
    
@@ -267,4 +267,4 @@ footer>a {
         text-align: center;
     }
     
-    }
+    } 
