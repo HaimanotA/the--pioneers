@@ -2,7 +2,7 @@
 
 /** styling the body **/
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     border: none;
 }
@@ -16,39 +16,44 @@ body {
 
 h1,
 h2 {
-    font-family: cursive, 'Dancing Script';
-    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
     letter-spacing: 3px;
     color: #252525;
-}
-
-/** styling the header **/
-header {
-    background-color: seagreen;
-    /** padding: 20px; will take out the logo **/
 }
 
 li {
     list-style-type: none;
 }
 
-.page-header {
-    height: 30vh;
+li,p {
+    margin-right: 2rem;
+    margin-left:2rem;
 }
 
 
+/** styling the header **/
+header {
+    background-color: seagreen;
+}
+
+
+/**.page-header {
+    height: 15vh;
+}
+**/
+
 #logo {
-    font-size: 100px;
-    margin-top: -50px;
+    font-size: 80px;
+    /** margin-top: 20px;
+    text-align: center;
+    margin-right:40px; **/
+    margin-top:20px;
+    margin-left:50px;
 }
 
 .motto {
-    font-size: 80px;
-}
-
-
-.text-left {
-    text-align: left;
+    font-size: 40px;
+    margin-left:40px;
 }
 
 
@@ -74,10 +79,8 @@ nav a {
 
 /** creating the right and left blocks **/
 div {
-    vertical-align: top;
+    /**vertical-align: top; **/
     display: inline-block;
-   /*  padding: 70px;
-    width: 40%; */
     text-align: justify;
 }
 
@@ -87,7 +90,7 @@ div {
     background: url('../images/hero-image1.jpg')no-repeat center center;
     margin-top: 20px;
     width: 30%;
-    height: 350px;
+    height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +100,7 @@ div {
     background: url('../images/hero-image2.jpg')no-repeat center center;
     margin-top: 20px;
     width: 30%;
-    height: 350px;
+    height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -109,6 +112,14 @@ h2 {
 
 #left-block {
     background-color: seagreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#right-block {
+    background-color: burlywood;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 hr {
@@ -117,10 +128,10 @@ hr {
     background-color: whitesmoke;
 }
 
-#right-block {
-    background-color: burlywood;
-}
 
+.show {
+    display: block;
+}
 
 /** footer styling **/
 footer {
@@ -174,36 +185,48 @@ footer>a {
     cursor: pointer;
     font-size: 16px;
     border-radius: 12px;
-    padding-left: 30px 30px;
+    padding-left: 30px, 30px;
 }
+
+
 
 
 /** Media queries **/
 
-/** for larger to medium screen sizes, 1400px wide and below **/
+/** for larger to medium screen sizes, 1200px wide and below **/
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     #celebs {
         margin: 0 auto;
         width: 65%;
     }
 
+    /** #left-block::after, #right-block::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+**/
     #header {
         margin: 0 auto;
         width: 100%;
     }
 
 
-    #left-block, #right-block {
+    #left-block,
+    #right-block {
         width: 100%;
-      /**  float: left; **/
+        /**  float: left; **/
     }
-     
-   
-    .page-header {
+
+    #hero-image1, #hero-image2 {width:100%;
+        height: 300px; }
+
+
+   /** .page-header {
         height: 15vh;
-        margin:0;
-    }
+        margin: 0;
+    } **/
 
     nav a {
         font-size: 20px;
@@ -213,25 +236,38 @@ footer>a {
 
 
     #logo {
-        font-size: 40px;
+        font-size: 50px;
     }
 
-     footer {
+    footer {
         font-size: 20px;
-        margin:0 auto;
+        margin: 0 auto;
     }
-} 
+}
 
 /** for medium screen sizes, 1000px wide and below **/
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
 
     #celebs {
         width: 100%;
         margin: 0 auto;
     }
-    #header {
+
+    nav a {
+        font-size: 12px;
+        height: 5px;
+        line-height: 5px;
+    }
+
+    footer {
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+     /* #header { 
         margin: 0 auto;
         width: 100%;
         margin-top: 0px;
@@ -240,31 +276,32 @@ footer>a {
     nav a {
         font-size: 12px;
         height: 5px;
-        line-height: 5px; }
+        line-height: 5px;
+    }
 
     #left-block,
     #right-block {
         display: block;
         margin: 0 auto;
-        width:100%;
+        width: 100%;
         float: none;
-    } 
+    }
 
     #logo {
         font-size: 20px;
         margin: 0 auto;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
 
     #motto {
-    font-size: 15px;
-    margin: 0 auto;
-}
+        font-size: 15px;
+        margin: 0 auto;
+    }
 
     footer {
-        font-size: 12px;
-        margin:0 auto;
+        font-size: 10px;
+        margin: 0 auto;
         text-align: center;
-    }
-    
-    } 
+    } */
+
+}
