@@ -1,6 +1,8 @@
 # The Pioneers
 
-The pioneers is a website which aims to provide the biography of world changing inventors. The site will mainly targets the youth. The targets can get motivation, inspiration and encouragement from the real life stories and discoveries of successful people. 
+The pioneers is a website which aims to provide the biography of world changing inventors. The site will mainly target the youth to give them motivation, inspiration and encouragement by presenting the real life stories and discoveries of 
+successful people. 
+
 
 ## Technologies used
 
@@ -8,7 +10,7 @@ This website is developed using HTML and CSS.
 
 ## Features
 
-The pioneers contains three pages,namely, 'HOME', 'PIONEERS' and 'SUBSCRIBE'. In additon, it provides a link to social medias. 
+The pioneers contains three pages,namely, 'HOME', 'PIONEERS' and 'SUBSCRIBE'. In additon, at the very bottom the web page there are links to social medias. 
  
 The HOME contains the hero header, navigation bar, images, quick facts, biography and links to social medias. 
 
@@ -60,7 +62,7 @@ The homepage link in the navigation menu, takes the user to the home page if the
 
 The subscribe page takes name, email and password and as they are requiered fields the user cannot submit without filling out the required information.
 
-- At the bottom of the page there are links to social medias and as it is intended all open in a new tab when clicked. 
+- on the footer there are  social medias links and as it is intended all open in a new tab when clicked. 
 
 ### Validator Testing 
 

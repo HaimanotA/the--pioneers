@@ -42,11 +42,11 @@ header {
 #logo {
     font-size: 80px;
     margin-top: 20px;
-    /* margin-left: 50px; */
+    margin-left: 50px; 
 }
 
 .motto {
-    font-size: 40px;
+    font-size: 50px;
     /* margin-left: 40px; */
 }
 
@@ -84,7 +84,7 @@ div {
     background: url('../images/hero-image1.jpg')no-repeat center center;
     margin-top: 20px;
     width: 30%;
-    height: 400px;
+    height: 420px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -94,13 +94,13 @@ div {
     background: url('../images/hero-image2.jpg')no-repeat center center;
     margin-top: 20px;
     width: 30%;
-    height: 400px;
+    height: 420px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h2 {
+h2,ul {
     text-align: center;
 }
 
@@ -226,10 +226,10 @@ footer a {
     }
 
 
-    /** for medium screen sizes, 992px wide and below **/
+    /** for medium screen sizes, 1024ppx wide and below **/
 
 
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1024px) {
 
         #celebs {
             width: 100%;
