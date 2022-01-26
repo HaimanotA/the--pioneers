@@ -6,7 +6,7 @@ successful people.
 
 ## Technologies used
 
-This website is developed using HTML and CSS.
+This website is developed using HTML, CSS and Java Script.
 
 ## Features
 
@@ -97,6 +97,7 @@ The link for the website is : https://haimanota.github.io/the--pioneers/
 
 - The biography part for both of the pioneers is taken from wikipedia. 
 - The quick facts for Mark Zuckerbery was taken from the site (https://www.entrepreneur.com/article/287422).
+- The code to include a clickable dropdown on the navigation bar was taken from the w3schools.com
 
 
 **Media**
