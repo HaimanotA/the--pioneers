@@ -7,6 +7,7 @@ The pioneers is a website which aims to provide the biography of world changing 
 This website is developed using HTML and CSS.
 
 ## Features
+
 The pioneers contains three pages,namely, 'HOME', 'PIONEERS' and 'SUBSCRIBE'. In additon, it provides a link to social medias. 
  
 The HOME contains the hero header, navigation bar, images, quick facts, biography and links to social medias. 
@@ -49,9 +50,13 @@ The signup page  will enable the user to get signed up by entering his/her full 
 
 ## Testing
 
+The page is tested and it works on different browsers like chrome, 
+
+The page is responsive and maintains its intergrity when viewed on different size screens. 
+
 Enough test on every features has been done to check if the site works well. 
 
-The homepage link in the navigation menu, takes the user to the home page if the user is on subscribe page. 
+The homepage link in the navigation menu, takes the user to the home page if the user is on the subscribe page. 
 
 The subscribe page takes name, email and password and as they are requiered fields the user cannot submit without filling out the required information.
 
@@ -66,11 +71,21 @@ The subscribe page takes name, email and password and as they are requiered fiel
     - No errors were found when running the code on W3C validator (jigsaw). 
 
 ### Unfixed Bugs
-
+ - No bugs were discovered while creating and testing our project.
 
 ## Deployment
+- The code and the README.md file is written on gitpod.  
 
-This site was deployed using github.
+- The template from code institute was used to create a repository on github. 
+
+- After completing some part of coding, the command "python3 -m http.server" was  used to view the changes on the browser.
+
+- To save the changes and push the code to github, the steps 'git add .', 'git commit -m "relevant message inside here" and finally typing 'git push' were used.
+
+- The project was deployed using github. The steps are as follows
+1/ Navigate the setting tab from github repository
+2/ Select master brance on the repository
+3/ once the master branch has been selected the link was generated.
 
 The link for the website is : https://haimanota.github.io/the--pioneers/
 
@@ -78,9 +93,9 @@ The link for the website is : https://haimanota.github.io/the--pioneers/
 
 **Content**
 
-- The texts for the biography part was taken from wikipedia. 
+- The biography part for both of the pioneers is taken from wikipedia. 
 - The quick facts for Mark Zuckerbery was taken from the site (https://www.entrepreneur.com/article/287422).
 
 
 **Media**
-Both of the images were taken from wikipedia.
+- Both of the images were taken from wikipedia.
