@@ -9,7 +9,7 @@
     <meta name="author" content="The Pioneers">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src = "assets/index.js"></script>
+    <script src="assets/index.js"></script>
 
     <title>Biography of pioneers</title>
 
@@ -17,39 +17,34 @@
 
 <body>
     <!--Header container wrapper-->
-    <header class="page-header text-left" id="header">
-        <div class="right-aligned">
+    <header class="page-header" id="header">
+        <div>
             <h1 id="logo">The Pioneers</h1>
             <p id="motto">Get motivated!</p>
         </div>
 
     </header>
-   <!--  Navigation bar-->
-    <!-- <nav class="nav-bar">
-
+    <!--  Navigation bar-->
+    
+    <nav class="nav-bar">
         <a href="index.html" aria-label="Go to the home page">Home</a>
-       <a href="#" aria-label="Go to other pioneers page (opens in new tab)">Pioneers</a> 
-        <a href="signup-form.html" aria-label="Go to the subscription page (opens in new tab)">Subscribe</a>
-    </nav>  -->
-
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Pioneers</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#Mark">Mark Zuckerberg</a>
-          <a href="#Elon">Elon Musk</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">List of Pioneers</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#Mark" aria-label="Go to Mark when clicked">Mark Zuckerberg</a>
+                <a href="#Elon" aria-label="Go to Elon when clicked">Elon Musk</a>
+            </div>
         </div>
-        <a href="index.html" aria-label="Go to the home page">Home</a>
-        <a href="signup-form.html" aria-label="Go to the subscription page (opens in new tab)">Subscribe</a> 
-      </div>
-
+        <a href="subscribe-form.html" aria-label="Go to the subscription page (opens in new tab)">Subscribe</a>
+    </nav>
 
     <hr>
 
 
-    <!--left block wrapper-->
     <!--top block wrapper-->
     <section id="celebs">
-        <div id="left-block">
+        <div id="top-block">
+           <br>
             <h2 id="Mark">Mark Zuckerbery</h2>
             <div id="hero-image1">
             </div>
@@ -91,10 +86,9 @@
 
         </div>
 
-
-        <!--right block wrapper -->
-   <!--Bottom block wrapper -->
-        <div id="right-block">
+        <!--Bottom block wrapper -->
+        <div id="bottom-block">
+            <br>
             <h2 id="Elon">Elon Musk</h2>
             <div id="hero-image2">
             </div>

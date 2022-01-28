@@ -9,26 +9,28 @@
     <meta name="author" content="The Pioneers">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/index.js"></script>
+
 </head>
+
 
     <body>
     
         <!--header container wrapper-->
-            <header class="page-header text-left">
-                <div class="right-aligned">
-                <h1 id="name">The Pioneers</h1>
-                <p id="motto">Get motivated!</p>
-            </div>
-            </header>
-           
+            <!--Header container wrapper-->
+    <header class="page-header" id="header">
+        <div>
+            <h1 id="logo">The Pioneers</h1>
+            <p id="motto">Get motivated!</p>
+        </div>
+    </header>
+    
             <nav class="nav-bar">
-                <a href="index.html">Home</a>
-                <a href="biography.html">Pioneers</a>
-                <a href="signup-form.html">Subscribe</a>
-         </nav>
+                <a href="index.html" aria-label="Go to the home page">Home</a>
 
+                <br>
         
-
+<p id="form-header">Subscribe to get weekly emails with inspiration and motivation from the pioneers!</p>
     <section class="form">
     <form>
         <label for="fname">First Name</label>
@@ -44,7 +46,7 @@
         <br>
         <br>
         
-        <input id="submit" type="submit" name="submit" value="Submit">
+        <input id="submit" type="submit" name="submit" value="Subscribe">
         <br>
 
     </form>

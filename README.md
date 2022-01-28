@@ -88,6 +88,8 @@ It is repeated on the subscribe page as well to allow the user to easily return 
 - CSS
     - No errors were found when running the code on W3C validator (jigsaw). 
 
+- Accessibility 
+
 ### Unfixed Bugs
  - No bugs were discovered while creating and testing the project.
 
@@ -113,7 +115,7 @@ The live link for the website can be found at : https://haimanota.github.io/the-
 
 **Content**
 
-- The biography for both of the pioneers is taken from wikipedia. 
+- The biography for both the pioneers is taken from wikipedia. 
 - The text included in the 'Quick Facts' for Mark Zuckerbery is taken from the site (https://www.entrepreneur.com/article/287422).
 - The text included in the 'Quick Facts' for Elon Musk is taken from the site (https://timepath.co/elon-musk).
 
