@@ -87,6 +87,10 @@ It is repeated on the subscribe page as well to allow the user to easily return 
 
 - CSS
     - No errors were found when running the code on W3C validator (jigsaw). 
+ 
+ - Accessibility
+ 
+ <img width="538" alt="Screenshot 2022-01-28 at 13 07 40 2" src="https://user-images.githubusercontent.com/97442846/151545467-64ef0701-e665-4c62-a6af-a9b763295981.png">
 
 - Accessibility 
 
