@@ -32,6 +32,12 @@ p {
     margin-left: 2rem;
 }
 
+a,
+a:visited,
+a:active,
+.dropbtn {
+    color: seagreen;
+}
 
 /** styling the header **/
 header {
@@ -46,7 +52,7 @@ header {
 
 .motto {
     font-size: 50px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 
@@ -157,8 +163,9 @@ footer a {
 }
 
 
-input[type=text], input[type=email], input[type=submit]
-{ 
+input[type=text],
+input[type=email],
+input[type=submit] {
     border: 2px solid black;
     box-sizing: border-box;
     padding: 4px 10px;
@@ -169,12 +176,12 @@ input[type=text], input[type=email], input[type=submit]
     cursor: pointer;
     font-size: 16px;
     border-radius: 12px;
-} 
+}
 
-#form-header{
- text-align: center;
+#form-header {
+    text-align: center;
     margin-top: 40px;
-  text-transform: lowercase; 
+    text-transform: lowercase;
 }
 
 /* for clickable dropdown/ */
@@ -189,13 +196,14 @@ input[type=text], input[type=email], input[type=submit]
     border: none;
     cursor: pointer;
     text-transform: uppercase;
-} 
+}
 
 /* The container <div> - needed to position the dropdown content */
 
-  .dropdown{
+.dropdown {
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -205,14 +213,14 @@ input[type=text], input[type=email], input[type=submit]
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-} 
+}
 
 /* Links inside the dropdown */
 .dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-   text-transform: capitalize; 
+    text-transform: capitalize;
 }
 
 /* Change color of dropdown links on hover 
@@ -223,7 +231,7 @@ input[type=text], input[type=email], input[type=submit]
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
-} 
+}
 
 
 
@@ -237,12 +245,7 @@ input[type=text], input[type=email], input[type=submit]
         width: 65%;
     }
 
-    /** #left-block::after, #right-block::after {
-        content: "";
-        display: block;
-        clear: both;
-    }
-**/
+    
     #header {
         margin-right: 11rem;
         margin-left: 11rem;
@@ -290,7 +293,8 @@ input[type=text], input[type=email], input[type=submit]
             margin: 0 auto;
         }
 
-        nav a, .dropbtn {
+        nav a,
+        .dropbtn {
             font-size: 10px;
             height: 5px;
             line-height: 5px;
