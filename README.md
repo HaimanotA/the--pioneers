@@ -79,22 +79,38 @@ It is repeated on the subscribe page as well to allow the user to easily return 
 ![Footer](documentation/readme6.png)
 ## Features left to implement
 
-   - Currently the site contains the biography of two persons. In the future it aims to include the biography and inventions of all inventors.
+   - Currently the site contains the biography of two pioneers. In the future it aims to include the biography and inventions of many more.
 
-   -  To facilitate the search process a search engine that takes input from the user should be included.
+   -  To facilitate the search process a search engine will be developed.
 
 
 ## Testing
 
-  - The page is tested and it works well on different browsers like chrome, safari and internet explorer.
+  - The page is tested on different browsers like chrome, safari and Microsoft edge. It functions very well on the browsers.
 
-  - The page is responsive and maintains its integrity when viewed on different size screens. The page looks and works the same on different browsers and screen sizes.
+  - The following pages are screenshots taken from Microsoft edge browser.
 
-  - The homepage link in the navigation menu, takes the user to the home page if the user is on the subscribe page. 
+   ![homepage-edge](documentation/readme13.png)
+
+   ![subscribe-edge](documentation/readme14.png)
+
+   ![homepage-edge](documentation/readme15.png)
+
+
+
+
+  - The page is responsive and maintains its integrity when viewed on different size screens. 
+ 
+
+![Mockup generator](documentation/readme16.png)
+
+  - The homepage link in the navigation menu, takes the user to the homepage if the user is on the subscribe page. 
 
   - The clickable dropdown menu functions well, and when the user clicks the name of the pioneer the page jumps to that specific section.
 
-  - The subscribe page takes name, email and password. The user cannot submit without filling out its full name and email address.
+  - The subscribe page takes name, email and password. The user cannot submit without filling out its full name and email address. 
+
+  - The confirmation page displays the welcome message and shifts to the homepage in 10 seconds.
 
   - The footer contains social media links and as it is intended all open in a new tab when clicked. 
 
@@ -105,24 +121,25 @@ It is repeated on the subscribe page as well to allow the user to easily return 
 I used the official W3C validation tool to test my code. I found no errors, but there is one acceptable warning present for a missing h2-h6.
 
 - [index.html](https://validator.w3.org/nu/?doc=https://haimanota.github.io/the--pioneers/index.html)
-    add screenshot here
+    ![index.html validation](documentation/readme7.png)
 
 - [subscribe-form.html](https://validator.w3.org/nu/?doc=https://haimanota.github.io/the--pioneers/subscribe-form.html)
-    add screenshot here
+    ![subscribe.html validation](documentation/readme9.png)
 
 - [confirmation.html](https://validator.w3.org/nu/?doc=https://haimanota.github.io/the--pioneers/confirmation.html)
-    add screenshot here
-
+    
+ ![confirmation.html validation](documentation/readme10.png)
 #### CSS Code Validation
 
 I used the official Jigaw validation tool to test my code. There are no errors or warnings present.
 
 - [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhaimanota.github.io%2Fthe--pioneers)
-    add screenshot here
 
- 
- 
+![css validation](documentation/Readme11.png)
+
 - Accessibility 
+ 
+![Lighthouse](documentation/readme8.png)
 
 ### Unfixed Bugs
  - No bugs were discovered while creating and testing the project.
