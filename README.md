@@ -2,17 +2,23 @@
 
 The pioneers is a website which aims to provide the biography of world changing inventors. The site will mainly target the young generation. It is designed to  motivate, inspire and encourage its target through the real life stories and inventions of successful people. 
 
-![hero-image](assets/images/hero-image1.jpg)
+![Resposnive Mockup](documentation/readme1.png)
 
 ## Technologies used
 
-This website is developed using HTML, CSS and JavaScript programming languages. Gitpod, Github and git.
+This website is developed using HTML, CSS and JavaScript programming languages. In addition the tools Gitpod, Github and Git are used.
+ - HTML is used to create the content of the webpage.
+ - CSS is used to style and specify the layout of the webpage.
+ - JavaScript is used to create interaction between the user and the webpage. 
+ - Gitpod is used as an editor to write and run our code.
+ - Github is employed as code hosting platform, collaboration and securing our code against accidental or malicious loss.
+ - Git is applied as a version control. 
 
 ## Features
 
- - The pioneers contain three pages,namely 'HOME', 'PIONEERS' and 'SUBSCRIBE'.
-
- - The HOME page contains the hero header, navigation bar, images, quick facts, biography and at the very bottom of the web page links to social media.  
+ - The pioneers contain three pages,namely 'HOME', 'LIST OF PIONEERS' and 'SUBSCRIBE'.
+ 
+ - The Homepage contains the hero header, navigation bar, images, quick facts, biography and at the very bottom of the web page links to social media.  
 
 ### Existing Features
 
@@ -24,10 +30,12 @@ This website is developed using HTML, CSS and JavaScript programming languages. 
     - The navigation bar is designed horizontally and placed in the center on the top of the page.
 It contains the links to 'HOME', 'PIONEERS' and 'SUBSCRIBE'. 
 
+![Navigation bar](documentation/Readme2.png)
+
 1. HOME
 
-    - The home links take the user to the site's home address. 
-It is repeated on the subscribe page as well to allow the user to easily return to the home page without clicking the 'back' button. 
+    - The home links take the user to the site's homepage. 
+It is repeated on the subscribe page as well to allow the user to easily return to the homepage without clicking the 'back' button. 
 
 2. LIST OF PIONEERS
 
@@ -35,12 +43,19 @@ It is repeated on the subscribe page as well to allow the user to easily return 
     - This menu allows the user to choose one value at a time. 
     - With the dropdown menu, users are not expected to scroll down to reach the section they want. This helps to narrow user choices and save screen spaces. 
 
+![Dropdown Menu](documentation/readme3.png)
 3. SUBSCRIBE
 
     - The subscribe page is where the user fills out the subscription form. 
     - The form takes the full name and email address from the user. 
     - The primary purpose of this page is to enable the user to receive inspirational and motivational stories from 'The Pioneers' via email.
+![Subscribe form](documentation/readme4.png)
 
+3.1 Confirmation page
+
+    - After the user correctly fill out and submitt the subscription form, he/she will be redirected to a new page. This new page will display a welcoming note for 10 seconds and then it will return the user to the homepage. If the user doesn't want to stay 10 seconds on this page, he/she can go to the homepage by clicking the Home link.
+
+![Confirmation page](documentation/readme5.png)
 - __Images__
 
     - The Home page contains two portrait images. The images are included to catch users attention and to present the inventors.
@@ -61,6 +76,7 @@ It is repeated on the subscribe page as well to allow the user to easily return 
 
    - This section is where visitors should go when they have a question and want to contact a specific individual in the organization. 
 
+![Footer](documentation/readme6.png)
 ## Features left to implement
 
    - Currently the site contains the biography of two persons. In the future it aims to include the biography and inventions of all inventors.
