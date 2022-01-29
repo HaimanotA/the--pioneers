@@ -64,7 +64,7 @@ header {
     padding: 1rem;
 }
 
-nav {
+nav{
     padding: 0;
     font-size: 1.0em;
     height: 45px;
@@ -78,7 +78,6 @@ nav a {
 
 /** creating the top and bottom blocks **/
 div {
-    /**vertical-align: top; changed inlin-block to block**/
     display: block;
     text-align: justify;
 }
@@ -132,7 +131,6 @@ footer {
     background-color: burlywood;
     padding: 2em;
     text-align: center;
-    /* margin: 0%; */
 }
 
 footer a {
@@ -181,18 +179,16 @@ input[type=submit] {
 #form-header {
     text-align: center;
     margin-top: 40px;
-    text-transform: lowercase;
 }
 
-/* for clickable dropdown/ */
+/* Style clickable dropdown/ */
 
 /* Dropdown Button */
 .dropbtn {
     background-color: whitesmoke;
-    /** color: seagreen ;  **/
     text-decoration: none;
     padding: 16px;
-    font-size: 1em;
+    font-size: 1.0em;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -223,11 +219,6 @@ input[type=submit] {
     text-transform: capitalize;
 }
 
-/* Change color of dropdown links on hover 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
@@ -247,8 +238,8 @@ input[type=submit] {
 
     
     #header {
-        margin-right: 11rem;
-        margin-left: 11rem;
+        margin-right: 2rem;
+        margin-left:2rem;
     }
 
 
@@ -300,13 +291,18 @@ input[type=submit] {
             line-height: 5px;
         }
 
+       body{
+        font-size: 14px;
+    }
+
         footer {
-            font-size: 8px;
+            font-size: 10px;
             margin: auto 0;
         }
 
+
         #header {
-            font-size: 10px;
+            font-size: 8px;
             margin: auto 0;
         }
     }
